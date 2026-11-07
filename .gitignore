@@ -1,0 +1,36 @@
+﻿# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database files and local outputs
+*.db
+*.sqlite
+*.log
+
+# Data files - review before publishing
+data/*.csv
+data/processed/*.csv
+
+# Power BI temporary/backup files
+*.tmp
+*.bak
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+src/*_backup.py
